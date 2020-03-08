@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "source sans pro light";
+}
+
+.bg-presentation {
+  position: relative;
+  display: inline-block;
+  background-image: url("../images/bg-purple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  background-position: center;
+  overflow: hidden;
+}
+.container {
+  width: 800px;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.container-2 {
+  min-width: 1500px;
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.fixed-nav {
+  position: sticky;
+  top: 0px;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  z-index: 999;
+  background: #5544f2;
+}
+
+.around {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.content-center {
+  align-items: center;
+}
+.list-items {
+  list-style-type: none;
+}
+
+.anchors {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 25px;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.anchors:hover {
+  color: #222;
+}
+
+.logo .anchors-none {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.picture-responsive {
+  width: 450px;
+  margin: auto;
+  display: block;
+  margin-left: 100px;
+}
+
+.flex {
+  display: flex;
+}
+@media screen and (max-width: 568px) {
+  .flex {
+    display: block;
+  }
+  .story {
+    padding: 25px;
+  }
+}
+
+.name-artist {
+  width: 100%;
+  font-size: 2.8em;
+  margin-top: 150px;
+}
+
+.wishes-font {
+  font-family: "great wishes";
+}
+
+.infos {
+  width: 100%;
+  margin-left: -100px;
+}
+
+.white {
+  color: #fff;
+}
+
+.txt-presentation {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+.dot-slide {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 85px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.dot-slide .dot {
+  width: 5px;
+  height: 30px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.dot-slide .dot:last-of-type {
+  margin-bottom: 0;
+}
+
+.active {
+  background: rgb(230, 233, 28) !important;
+}
+
+.section-padding {
+  padding-top: 80px;
+}
+
+.story {
+  background: #fff;
+}
+
+.underline {
+  text-decoration: line-through;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.center {
+  text-align: center;
+}
+
+.grey {
+  color: #333;
+}
+
+.txt-story {
+  width: 400px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.story {
+  position: relative;
+  display: inline-block;
+  background-image: url("../images/bg-story.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  background-position: center;
+  overflow: hidden;
+}
+
+.txt-story-subtitle {
+  font-size: 1.3em;
+  color: #444;
+}
